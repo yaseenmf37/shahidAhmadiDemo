@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+.chatbox-container {
+  margin: 0 auto;
+}
+
+.bot-message {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.user-message {
+  background-color: #c8e6c9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: right;
+}
