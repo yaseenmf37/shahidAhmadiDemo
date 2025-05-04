@@ -1,13 +1,17 @@
-// App.jsx
-import RepInfoForm from "./components/RepInfoForm";
-import Header from "./components/Header";
+// src/App.js
+import React from "react";
+import ChatBox from "./components/ChatBox";
+import "animate.css";
+import "./index.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
-      <Header />
-      <RepInfoForm />
-      {/* بقیه فرم‌ها اینجا اضافه می‌شن */}
+    <div className="app-container flex justify-center items-center h-screen bg-gray-100">
+      <div className="chatbox-wrapper w-full">
+        <ChatBox />
+      </div>
     </div>
   );
 }
+
+export default App;
